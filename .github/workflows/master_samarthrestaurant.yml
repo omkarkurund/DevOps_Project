@@ -30,8 +30,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run collectstatic
-        run: python manage.py collectstatic
+      - name: Run makemigrations
+        run: python manage.py makemigrations
+
+      - name: Run migrate
+        run: python manage.py migrate
+
+      - name: Run server
+        run: python manage.py server
 
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       - name: Zip artifact for deployment
