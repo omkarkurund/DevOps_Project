@@ -31,7 +31,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run collectstatic
-        run: python manage.py collectstatic --noinput
+        run: python manage.py collectstatic
 
       - name: Run makemigrations
         run: python manage.py makemigrations
