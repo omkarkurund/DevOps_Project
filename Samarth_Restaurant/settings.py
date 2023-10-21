@@ -124,6 +124,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATIC_ROOT = '/home/username/projects/site/assets/
 # managing media
 
 MEDIA_URL="/media/"
@@ -139,7 +140,6 @@ MEDIA_ROOT= os.path.join(BASE_DIR, "media")
 #Added code
 STATICFILES_DIRS = [
    os.path.join(BASE_DIR, 'static'), # Include your project-specific static directory
-   os.path.join(BASE_DIR, 'staticfiles'),
 ]
 
 
