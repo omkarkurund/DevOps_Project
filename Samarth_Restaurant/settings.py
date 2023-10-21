@@ -138,8 +138,8 @@ MEDIA_ROOT= os.path.join(BASE_DIR, "media")
 
 #Added code
 STATICFILES_DIRS = [
-   os.path.join(BASE_DIR, 'static'),  # Include your project-specific static directory
-    '/path/to/third-party/static/',
+   os.path.join(BASE_DIR, 'static'), # Include your project-specific static directory
+   os.path.join(BASE_DIR, 'staticfiles'),
 ]
 
 
