@@ -123,7 +123,7 @@ USE_TZ = True
 # STATIC_ROOT = '/home/username/projects/site/assets/'
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = '/static/'
 # STATIC_ROOT = '/home/username/projects/site/assets/
 # managing media
 
